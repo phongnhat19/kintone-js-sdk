@@ -8,9 +8,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const {Connection, KintoneAPIException} = require('../../../../base/src/main');
+const {Connection, KintoneAPIException} = require('../../../base/main');
 
-const FileModule = require('../../../../base/src/main').File;
+const FileModule = require('../../../base/main').File;
 /**
  * File module for NodeJS
  */

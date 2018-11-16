@@ -1,7 +1,7 @@
 const CONNECTION_CONST = require('./constant');
 
-const packageFile = require('../../package.json');
-const BaseConnection = require('../../../base/src/main').Connection;
+const packageFile = require('../../../package.json');
+const BaseConnection = require('../../base/main').Connection;
 
 class Connection extends BaseConnection {
   /**

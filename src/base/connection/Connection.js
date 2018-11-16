@@ -5,7 +5,7 @@ const FormData = require('form-data');
 const Auth = require('../authentication/Auth');
 const HTTPHeader = require('../model/http/HTTPHeader');
 const KintoneAPIException = require('../exception/KintoneAPIException');
-const packageFile = require('../../package.json');
+const packageFile = require('../../../package.json');
 
 const CONNECTION_CONST = require('./constant');
 const DEFAULT_PORT = '443';
@@ -37,7 +37,6 @@ class Connection {
           packageFile.name || 'kintone-basejs-sdk')
         .replace('{version}', packageFile.version || '(none)')
     );
-
   }
 
   /**

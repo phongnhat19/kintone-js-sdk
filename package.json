@@ -1,5 +1,5 @@
 {
-  "name": "kintone_js_sdk",
+  "name": "kintone-js-sdk",
   "version": "1.0.0",
   "description": "",
   "main": "./src/index.js",
