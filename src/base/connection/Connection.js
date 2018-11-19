@@ -34,7 +34,7 @@ class Connection {
       CONNECTION_CONST.BASE.USER_AGENT,
       CONNECTION_CONST.BASE.USER_AGENT_BASE_VALUE
         .replace('{name}',
-          packageFile.name || 'kintone-basejs-sdk')
+          packageFile.name || 'kintone-js-sdk')
         .replace('{version}', packageFile.version || '(none)')
     );
   }

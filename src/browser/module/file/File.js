@@ -5,7 +5,7 @@ import {Connection} from '../connection/Connection';
 /**
  * File module
  */
-import {File as FileModule} from '../../../../base/src/main';
+import {File as FileModule} from '../../../base/main';
 
 export class File extends FileModule {
   /**

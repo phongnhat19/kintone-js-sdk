@@ -1,8 +1,4 @@
-/**
- * kintone api - js client
- */
-
-import * as kintoneBaseJSSDK from '../../../../base/src/main';
+import * as kintoneBaseJSSDK from '../../../base/main';
 /**
  * Connection module
  */
