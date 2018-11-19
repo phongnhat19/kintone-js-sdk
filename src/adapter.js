@@ -1,6 +1,20 @@
 let adapter = {}
-const isBrowser = new Function("try {return this===window;}catch(e){ return false;}");
-var isNode = new Function("try {return this===global;}catch(e){return false;}");
+const isBrowser = function() {
+    try {
+        return this === window;
+    }
+    catch(e) {
+        return false;
+    }
+}
+const isNode = function() {
+    try {
+        return this === global;
+    }
+    catch(e) {
+        return false;
+    }
+}
 
 adapter.detectEnvironment = () => {
     if (isBrowser()) {
