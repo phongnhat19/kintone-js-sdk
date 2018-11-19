@@ -1,4 +1,4 @@
-# kintone_js_sdk
+# kintone-js-sdk
 Merge kintone_basejs_sdk, kintone_nodejs_sdk, kintone_js_sdk
 
 # Install Dependencies
