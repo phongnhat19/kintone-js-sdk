@@ -1,6 +1,6 @@
 {
   "name": "kintone-js-sdk",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "./src/index.js",
   "scripts": {
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phongnhat19/kintone_js_sdk.git"
+    "url": "git+https://github.com/phongnhat19/kintone-js-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/phongnhat19/kintone_js_sdk/issues"
+    "url": "https://github.com/phongnhat19/kintone-js-sdk/issues"
   },
-  "homepage": "https://github.com/phongnhat19/kintone_js_sdk#readme",
+  "homepage": "https://github.com/phongnhat19/kintone-js-sdk#readme",
   "dependencies": {
     "form-data": "^2.3.2",
     "axios": "^0.18.0",
